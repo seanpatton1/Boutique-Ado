@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-t4)=66l&@*oki&fk#3d6gxr)(*$k=2kxen79jaw-dp7(v$nmn+
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '8000-seanpatton1-boutiqueado-8xf5d01u6yg.ws.codeinstitute-ide.net']
+    '8000-seanpatton1-boutiqueado-3dq31rlhzz5.ws.codeinstitute-ide.net']
 
 
 # Application definition
