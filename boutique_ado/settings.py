@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-t4)=66l&@*oki&fk#3d6gxr)(*$k=2kxen79jaw-dp7(v$nmn+
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '8000-seanpatton1-boutiqueado-3dq31rlhzz5.ws.codeinstitute-ide.net']
+    '8000-seanpatton1-boutiqueado-2k7llya4x42.ws.codeinstitute-ide.net']
 
 
 # Application definition
@@ -61,6 +61,10 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     "allauth.account.middleware.AccountMiddleware",
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://8000-seanpatton1-boutiqueado-2k7llya4x42.ws.codeinstitute-ide.net'
 ]
 
 ROOT_URLCONF = 'boutique_ado.urls'
