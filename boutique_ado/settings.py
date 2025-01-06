@@ -31,7 +31,7 @@ SECRET_KEY = 'django-insecure-t4)=66l&@*oki&fk#3d6gxr)(*$k=2kxen79jaw-dp7(v$nmn+
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'boutique-ado-143.herokuapp.com', 'localhost']
+    'boutique-ado-143-c232bebeb395.herokuapp.com', 'localhost']
 
 
 # Application definition
