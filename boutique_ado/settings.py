@@ -11,6 +11,9 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 import os
+if os.path.exists("env.py"):
+  import env 
+  
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -49,7 +52,9 @@ INSTALLED_APPS = [
     'checkout',
 
     # Other
-    'crispy_forms',
+    'crispy_forms',        
+    "crispy_bootstrap4",
+    
 ]
 
 MIDDLEWARE = [
@@ -60,7 +65,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    "allauth.account.middleware.AccountMiddleware",
+    # "allauth.account.middleware.AccountMiddleware",
 ]
 
 CSRF_TRUSTED_ORIGINS = [
